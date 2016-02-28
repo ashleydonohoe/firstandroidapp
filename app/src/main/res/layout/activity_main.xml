@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.localbusiness.MainActivity">
+
+    <ImageView
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:id="@+id/scene75Pic"
+        android:src="@drawable/scene75"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:background="#2196F3"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="3dp"
+        android:layout_weight="0" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scene75"
+        android:background="#E3F2FD"
+        android:padding="3dp"
+        android:layout_weight="0" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Business Description"
+        android:background="#2196F3"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="3dp"
+        android:layout_weight="0" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A family-owned entertainment and dining venue with bowling, mini golf, go-karts, simulators, and over a hundred arcade games"
+        android:background="#E3F2FD"
+        android:padding="3dp"
+        android:layout_weight="0" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:background="#2196F3"
+        android:padding="3dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_weight="0" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(513) 965-4045"
+        android:padding="3dp"
+        android:background="#E3F2FD"
+        android:layout_weight="0" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:background="#2196F3"
+        android:padding="3dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_weight="0" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="876 Ohio 28, Milford, OH 45150"
+        android:background="#E3F2FD"
+        android:padding="3dp"
+        android:layout_weight="0" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Website"
+        android:background="#2196F3"
+        android:textStyle="bold"
+        android:padding="3dp"
+        android:textSize="16sp"
+        android:layout_weight="0" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="http://www.scene75.com/cincinnati/"
+        android:background="#E3F2FD"
+        android:padding="3dp"
+        android:layout_weight="0"
+        android:autoLink="web"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Business Hours:"
+        android:background="#2196F3"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="3dp"
+        android:layout_weight="0" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mon-Tues: Closed, Wed: 11am-10pm, Thurs: 11am-10pm, Fri-Sat: 11am-1am, Sun: 11am-10pm"
+        android:background="#E3F2FD"
+        android:padding="3dp"
+        android:layout_weight="0" />
+</LinearLayout>
